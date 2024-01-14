@@ -1,7 +1,9 @@
-vim.opt.guicursor = ""
+-- vim.opt.guicursor = ""
 
+-- Disable neovim splash screen
 vim.opt.shm = "I"
 
+-- Netrw config
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
 vim.g.netrw_browse_split = 0
@@ -20,4 +22,4 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 2
