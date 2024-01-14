@@ -1,0 +1,32 @@
+-- Set leader key
+vim.g.mapleader = " "
+
+-- Open netrw
+-- vim.keymap.set("n", "<leader>sf", vim.cmd.Ex)
+vim.keymap.set("n", "sf", vim.cmd.Ex)
+
+-- Open Lazy.nvim
+vim.keymap.set("n", "<leader>l", vim.cmd.Lazy)
+
+-- Buffer management
+vim.keymap.set("n", "L", vim.cmd.bnext)
+vim.keymap.set("n", "H", vim.cmd.bprev)
+vim.keymap.set("n", "<leader>q", vim.cmd.bd)
+
+-- Replace all
+vim.keymap.set("n", "S", ":%s//g<Left><Left>")
+-- Spellcheck, z= to get list of options on hover
+vim.keymap.set("n", "<leader>o", ":setlocal spell!<Return>", { silent = true })
+
+-- Move lines
+vim.keymap.set("n", "˚", ":m .-2<Return>==", { silent = true })
+vim.keymap.set("n", "∆", ":m .+1<Return>==", { silent = true })
+vim.keymap.set("i", "∆", "<Esc>:m .+1<Return>==gi", { silent = true })
+vim.keymap.set("i", "˚", "<Esc>:m .-2<Return>==gi", { silent = true })
+vim.keymap.set("v", "∆", ":m '>+1<Return>gv=gv", { silent = true })
+vim.keymap.set("v", "˚", ":m '<-2<Return>gv=gv", { silent = true })
+
+-- Increment/decrement
+vim.keymap.set("n", "+", "<C-a>")
+vim.keymap.set("n", "-", "<C-x>")
+
