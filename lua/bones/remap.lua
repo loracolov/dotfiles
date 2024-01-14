@@ -2,7 +2,6 @@
 vim.g.mapleader = " "
 
 -- Open netrw
--- vim.keymap.set("n", "<leader>sf", vim.cmd.Ex)
 vim.keymap.set("n", "sf", vim.cmd.Ex)
 
 -- Open Lazy.nvim
@@ -15,6 +14,7 @@ vim.keymap.set("n", "<leader>q", vim.cmd.bd)
 
 -- Replace all
 vim.keymap.set("n", "S", ":%s//g<Left><Left>")
+
 -- Spellcheck, z= to get list of options on hover
 vim.keymap.set("n", "<leader>o", ":setlocal spell!<Return>", { silent = true })
 
@@ -29,4 +29,20 @@ vim.keymap.set("v", "˚", ":m '<-2<Return>gv=gv", { silent = true })
 -- Increment/decrement
 vim.keymap.set("n", "+", "<C-a>")
 vim.keymap.set("n", "-", "<C-x>")
+
+-- Undotree
+vim.keymap.set('n', '<leader>h', vim.cmd.UndotreeToggle)
+
+-- Move windows
+vim.keymap.set("", "sh", "<C-w>h")
+vim.keymap.set("", "sk", "<C-w>k")
+vim.keymap.set("", "sj", "<C-w>j")
+vim.keymap.set("", "sl", "<C-w>l")
+
+-- Split windows
+vim.keymap.set("n", "ss", ":split<Return><C-w>w", { silent = true })
+vim.keymap.set("n", "sv", ":vsplit<Return><C-w>w", { silent = true })
+
+
+
 
