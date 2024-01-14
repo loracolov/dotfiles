@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 
 -- Open netrw
-vim.keymap.set("n", "sf", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>f", vim.cmd.Ex)
 
 -- Open Lazy.nvim
 vim.keymap.set("n", "<leader>l", vim.cmd.Lazy)
@@ -40,8 +40,8 @@ vim.keymap.set("", "sj", "<C-w>j")
 vim.keymap.set("", "sl", "<C-w>l")
 
 -- Split windows
-vim.keymap.set("n", "ss", ":split<Return><C-w>w", { silent = true })
-vim.keymap.set("n", "sv", ":vsplit<Return><C-w>w", { silent = true })
+-- vim.keymap.set("n", "ss", ":split<Return><C-w>w", { silent = true })
+-- vim.keymap.set("n", "sv", ":vsplit<Return><C-w>w", { silent = true })
 
 
 
