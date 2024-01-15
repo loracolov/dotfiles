@@ -33,6 +33,6 @@ return {
       vim.keymap.set("n", "sf", builtin.find_files, {})
       vim.keymap.set("n", "sg", builtin.live_grep, {})
       vim.keymap.set("n", "sb", builtin.buffers, {})
-      -- vim.keymap.set("n", "ss", builtin.grep_string, {})
+      vim.keymap.set("n", "su", builtin.grep_string, {})
     end,
 }
