@@ -20,6 +20,9 @@ vim.keymap.set("n", "S", ":%s//g<Left><Left>")
 
 -- Spellcheck, z= to get list of options on hover
 vim.keymap.set("n", "<leader>o", ":setlocal spell!<Return>", { silent = true })
+-- Fix spelling on the fly in insert mode. Will pick the first spelling recommendation.
+-- [https://castel.dev/post/lecture-notes-1/#correcting-spelling-mistakes-on-the-fly]
+vim.keymap.set("i", "<C-o>", "<c-g>u<Esc>[s1z=`]a<c-g>u")
 
 -- Move lines
 vim.keymap.set("n", "˚", ":m .-2<Return>==", { silent = true })
