@@ -2,7 +2,10 @@
 vim.g.mapleader = " "
 
 -- Open netrw
-vim.keymap.set("n", "<leader>f", vim.cmd.Ex)
+-- vim.keymap.set("n", "<leader>f", vim.cmd.Ex)
+
+-- Open Telescope file browser
+vim.keymap.set("n", "<leader>f", ":Telescope file_browser<Return>")
 
 -- Open Lazy.nvim
 vim.keymap.set("n", "<leader>l", vim.cmd.Lazy)
