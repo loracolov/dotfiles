@@ -14,7 +14,7 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 - Clone
 
 ```sh
-git clone https://github.com/loracolov/dotfiles
+git clone https://github.com/loracolov/dotfiles ~/.config/nvim
 ```
 
 - Start Neovim!
