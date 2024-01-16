@@ -1,6 +1,6 @@
 # Simple Neovim config
 
-A simple Neovim config. Audit before use.
+A simple Neovim config that includes only the essential plugins and (in)sane defaults. Audit before use.
 
 ## Plugins
 
