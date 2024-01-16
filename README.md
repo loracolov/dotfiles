@@ -8,6 +8,7 @@ A simple Neovim config that includes a few essential plugins and (in)sane defaul
 - [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
+- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 - [undotree](https://github.com/mbbill/undotree)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
