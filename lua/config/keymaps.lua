@@ -8,7 +8,7 @@ vim.g.mapleader = " "
 -- keymap.set("n", "<leader>f", vim.cmd.Ex)
 
 -- Open Telescope file browser
-keymap.set("n", "<leader>f", ":Telescope file_browser<Return>", opts)
+keymap.set("n", ";f", ":Telescope file_browser<Return>", opts)
 
 -- Open Lazy.nvim
 keymap.set("n", "<leader>l", vim.cmd.Lazy)
