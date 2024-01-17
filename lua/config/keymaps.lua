@@ -17,6 +17,7 @@ keymap.set("n", "<leader>l", vim.cmd.Lazy)
 keymap.set("n", "L", vim.cmd.bnext)
 keymap.set("n", "H", vim.cmd.bprev)
 keymap.set("n", "<leader>q", vim.cmd.bd)
+keymap.set("n", "sb", vim.cmd.ls)
 
 -- Vim native find files
 keymap.set("n", "<leader>f", ":find *")
