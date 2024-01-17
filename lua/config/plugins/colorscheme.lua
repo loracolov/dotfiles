@@ -14,4 +14,3 @@ return {
   vim.cmd([[highlight TelescopeNormal guibg=none]])
   end,
 }
-

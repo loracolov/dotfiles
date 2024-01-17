@@ -18,6 +18,9 @@ keymap.set("n", "L", vim.cmd.bnext)
 keymap.set("n", "H", vim.cmd.bprev)
 keymap.set("n", "<leader>q", vim.cmd.bd)
 
+-- Vim native find files
+keymap.set("n", "<leader>f", ":find *")
+
 -- Replace all
 keymap.set("n", "S", ":%s//g<Left><Left>")
 
