@@ -57,5 +57,3 @@ nvim
 │       └── undotree.lua
 └── init.lua
 </pre>
-
-
