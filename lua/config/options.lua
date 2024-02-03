@@ -2,6 +2,7 @@
 
 --Set path for searching
 vim.opt.path:append '**'
+vim.opt.clipboard = "unnamedplus"
 
 vim.opt.title = true
 
