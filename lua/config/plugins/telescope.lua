@@ -32,7 +32,7 @@ return {
       local builtin = require("telescope.builtin")
       vim.keymap.set("n", "sf", builtin.find_files, {})
       vim.keymap.set("n", "sg", builtin.live_grep, {})
-      -- vim.keymap.set("n", "sb", builtin.buffers, {})
+      vim.keymap.set("n", "sb", builtin.buffers, {})
       vim.keymap.set("n", "su", builtin.grep_string, {})
     end,
 }
