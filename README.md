@@ -4,14 +4,14 @@ A simple Neovim config that includes a few essential plugins and *in*sane defaul
 
 ## Plugins
 
-- [lazy.nvim](https://github.com/folke/lazy.nvim)
-- [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
-- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-- [telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
-- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
-- [undotree](https://github.com/mbbill/undotree)
-- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
+- [lazy.nvim](https://github.com/folke/lazy.nvim), plugin manager. 
+- [tokyonight.nvim](https://github.com/folke/tokyonight.nvim), colorscheme.
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim), fuzzy finder.
+- [telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim), file browser extension for telescope.nvim.
+- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons), icons.
+- [undotree](https://github.com/mbbill/undotree), git history.
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter), syntax higlighting.
+- [plenary.nvim](https://github.com/nvim-lua/plenary.nvim), required.
 
 ## Installation
 
