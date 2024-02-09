@@ -7,6 +7,9 @@ return {
         local fb_actions = require "telescope._extensions.file_browser.actions"
 
         require("telescope").setup({
+            defaults = {
+                sorting_strategy = "descending",
+            },
             extensions = {
                 file_browser = {
                     theme = "dropdown",
