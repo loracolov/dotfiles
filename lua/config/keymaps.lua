@@ -53,6 +53,9 @@ keymap.set("", "sk", "<C-w>k")
 keymap.set("", "sj", "<C-w>j")
 keymap.set("", "sl", "<C-w>l")
 
+-- Open MarkdownPreview
+keymap.set("n", "<leader>p", ":MarkdownPreview<Return>")
+
 -- Split windows
 -- keymap.set("n", "ss", ":split<Return><C-w>w", opts)
 -- keymap.set("n", "sv", ":vsplit<Return><C-w>w", opts)

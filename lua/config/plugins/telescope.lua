@@ -13,7 +13,6 @@ return {
             extensions = {
                 file_browser = {
                     theme = "dropdown",
-                    hijak_netrw = true,
                     path = "%:p:h",
                     respect_gitignore = false,
                     hidden = true,
