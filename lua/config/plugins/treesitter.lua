@@ -7,6 +7,7 @@ return {
                     "lua",
                     "markdown",
                     "bash",
+                    "vimdoc",
                     -- "javascript", 
                     -- "html", 
                     -- "typescript"
