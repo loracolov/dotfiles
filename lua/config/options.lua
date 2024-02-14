@@ -40,10 +40,3 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "cursor"
 vim.opt.mouse = ""
-
-vim.api.nvim_create_autocmd(
-	"BufWinEnter", { 
-        pattern = "*.md",
-        command = "set filetype=markdown",
-    }
-)

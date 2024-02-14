@@ -24,7 +24,7 @@ keymap.set("n", "<leader>q", vim.cmd.bd)
 -- keymap.set("n", "<leader>f", ":find *")
 
 -- Replace all
-keymap.set("n", "S", ":%s//g<Left><Left>")
+keymap.set("n", "<leader>s", ":%s//g<Left><Left>")
 
 -- Spellcheck, z= to get list of options on hover
 keymap.set("n", "<leader>o", ":setlocal spell!<Return>", opts)
